@@ -73,36 +73,5 @@
 # print(d.pop(100 ))
 # print(d)
 
-#
-# l=[[1,2,3,4,'a','b'],[6,'c',5],[7,'d'],['f','e',8]]
-# list=[' '.join([str(x) for x in lst]) for lst in l]
-# l1=l[0]
-# a="".join(map(str,l1))
-# l2=l[1]
-# b="".join(map(str,l2))
-# l3=l[2]
-# c="".join(map(str,l3))
-# l4=l[3]
-# d="".join(map(str,l4))
-# p=sorted(a+b+c+d)
-# new_list=[]
-# new_list.append(p[:6])
-# new_list.append(p[6:9])
-# new_list.append(p[9:11])
-# new_list.append(p[11:14])
-# print(new_list)
-# print(type(new_list))
-
-
-l=[[1,2,3,4,'a','b'],[6,'c',5],[7,'d'],['f','e',8]]
-l1=[element for innerList in l for element in innerList]
-a="".join(map(str,l1))
-s=sorted(a)
-new_list=[]
-new_list.append(s[:6])
-new_list.append(s[6:9])
-new_list.append(s[9:11])
-new_list.append(s[11:14])
-print(new_list)
-print(type(new_list))
+print("hello.. bhagyhsree.. yevdi phone vr nko rahat jau.. ky te secrete ahe te kalu de amhala pn!!")
 
